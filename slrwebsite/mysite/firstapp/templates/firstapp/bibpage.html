@@ -1,0 +1,16 @@
+
+{% extends "./base_page.html" %}
+
+{% block content %}
+
+<form  enctype="multipart/form-data"   method="post">
+{% csrf_token %}
+    <div style="display: flex">
+        <label>File</label>
+        <input  class="form-control-file"  type="file" id="file_import" name="file_import"/>
+        <button class="btn btn-primary" type="submit" value="Upload" id="button_upload">Upload</button>
+    </div>
+
+</form>
+
+{% endblock %}

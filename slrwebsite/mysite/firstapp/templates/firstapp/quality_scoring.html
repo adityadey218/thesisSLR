@@ -1,0 +1,86 @@
+
+{% extends "./base_page.html" %}
+
+{% block content %}
+<div class="panel panel-default">
+                        <div class="panel-heading">
+                            Keywords Search
+                        </div>
+
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                             <script>
+                     $(document).ready(function(){
+                        $("#demo").on("keyup", function() {
+                           var value = $(this).val().toLowerCase();
+                           $("#test tr").filter(function() {
+                              $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                           });
+                        });
+                     });
+                  </script>
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Literature</th>
+                                            <th>Pages</th>
+                                            <th>abstract structure</th>
+                                            <th>citation count</th>
+                                            <th>Author count</th>
+                                            <th>PlumX/usage</th>
+                                            <th>PlumX/SM</th>
+                                             <th>Twitter</th>
+                                            <th>PlumX/Mentions</th>
+                                            <th>PlumX/captures</th>
+                                            <th>publication type</th>
+                                            <th>publisher</th>
+                                            <th>Venue sjr</th>
+                                            <th>Venue snip</th>
+                                            <th>Venue csc</th>
+                                            <th>Venue cst</th>
+                                            <th>KW Hits all</th>
+                                            <th>Total score</th>
+
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    {% for k in litList %}
+                                        <tr>
+
+                                            <td>{{k.literature_id_id}}</td>
+                                            <td>{{k.page}}</td>
+                                            <td>{{k.abstract_structured}}</td>
+                                            <td>{{k.Citation_count}}</td>
+                                            <td>{{k.authors_all_count}}</td>
+                                            <td>{{k.Usage_count}}</td>
+                                            <td>{{k.Social_count}}</td>
+                                            <td>{{k.KW_hit_in_kw}}</td>
+                                            <td>{{k.Mention_count}}</td>
+                                            <td>{{k.Capture_count}}</td>
+                                            <td>{{k.publication_type}}</td>
+                                            <td>{{k.publisher}}</td>
+                                            <td>{{k.sjr}}</td>
+                                            <td>{{k.snip}}</td>
+                                            <td>{{k.csc}}</td>
+                                            <td>{{k.cst}}</td>
+                                            <td>{{k.KW_hit_in_all}}</td>
+                                            <td>{{k.KW_hit_in_abstract}}</td>
+
+
+
+
+                                        </tr>
+                                    {% endfor %}
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /.table-responsive -->
+                        </div>
+
+
+                        <!-- /.panel-body -->
+                    </div>
+{% endblock %}

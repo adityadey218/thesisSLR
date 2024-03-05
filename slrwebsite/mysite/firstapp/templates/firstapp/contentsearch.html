@@ -1,0 +1,39 @@
+
+{% extends "./base_page.html" %}
+
+{% block content %}
+<div class="panel panel-default">
+                        <div class="panel-heading">
+                            Keywords Search
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Keyword part</th>
+                                            <th>count</th>
+                                            <th>Literature</th>
+                                            <th>Place</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    {% for k in kwsearchRs %}
+                                        <tr>
+                                            {% for p in k %}
+                                            <td>{{p}}</td>
+                                            {% endfor %}
+
+                                        </tr>
+                                    {% endfor %}
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /.table-responsive -->
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+{% endblock %}

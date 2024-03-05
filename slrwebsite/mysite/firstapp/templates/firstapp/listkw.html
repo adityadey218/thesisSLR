@@ -1,0 +1,90 @@
+
+{% extends "./base_page.html" %}
+
+{% block content %}
+<style>
+
+.loader {
+  border: 3px solid #f3f3f3; /* Light grey */
+  border-top: 3px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+<form >
+    {% csrf_token%}
+    <div hidden="hidden" id="loading">
+        <div style="display:flex; align-items: center;" id="alert"   class="alert alert-info">
+            <div class="loader"></div>
+            <div id="msg" style="margin-left: 8px">Loading...</div>
+        </div>
+    </div>
+    <input class="btn btn-primary" onclick="startProcess()" type="button" value="Process data" >
+</form>
+
+
+<script language="JavaScript">
+
+    function startProcess() {
+        $("#loading").show("slow");
+        let data = {
+            action: "startProcess",
+        };
+
+        // add form input from hidden input elsewhere on the page
+       let csrftoken = getCookie('csrftoken');
+       (async () => {
+              const rawResponse = await fetch('/firstapp/startProcess', {
+                method: 'POST',
+                headers: {
+                  'Accept': 'application/json',
+                  'Content-Type': 'application/json'
+                },
+                body: data,
+                headers: { "X-CSRFToken": csrftoken },
+              });
+              const content = await rawResponse.json();
+              if (content.result == "success") {
+                 $("#msg").text(content.message);
+                 $(".loader").fadeOut("fast");
+                 $("#alert").removeClass("alert-info");
+                 $("#alert").addClass("alert-success");
+                 setTimeout(()=>{ window.location = "/firstapp/search";   }, 3000);
+
+              } else if (content.result == "error") {
+                 $("#msg").text(content.message);
+                 $(".loader").fadeOut("fast");
+                 $("#alert").removeClass("alert-info");
+                 $("#alert").addClass("alert-danger");
+
+              }
+
+            })();
+    }
+
+    // The following function are copying from
+    // https://docs.djangoproject.com/en/dev/ref/csrf/#ajax
+    function getCookie(name) {
+        var cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            var cookies = document.cookie.split(';');
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = cookies[i].trim();
+                // Does this cookie string begin with the name we want?
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+</script>
+{% endblock %}

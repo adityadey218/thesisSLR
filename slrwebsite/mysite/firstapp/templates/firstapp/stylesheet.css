@@ -1,0 +1,92 @@
+/* stylesheet.css */
+     .wrapper
+    {
+        height:  100%;
+        width: 100%;
+    }
+    .body1
+    {
+    color:red;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: lowercase;
+    }
+    .div2
+    {
+        height:  600px;
+    background-color:POWDERBLUE;
+    font-family: 'Lobster', cursive;
+        font-size: 70px;
+
+    }
+
+     .div3
+    {
+    height: 600px;
+    background-color:PINK;
+    font-size:40px;
+        font-family: 'Dosis', sans-serif;
+        font-weight: 400;
+
+    }
+
+   .p0
+   {
+    color:DARKOLIVEGREEN;
+    font-family:'Amatic SC', cursive;
+    font-size:80px;
+    text-align:center;
+
+   }
+
+    .p1
+    {
+
+    font-size: 40%;
+    font-family: courier;
+    font-color:DARKOLIVEGREEN
+    text-align:center;
+
+    }
+
+    .p2
+    {
+         color:DARKOLIVEGREEN;
+          font-family:Dosis;
+          font-size:60%;
+          font-weight: 200px;
+          text-align:center;"
+
+    }
+
+     .p3
+    {
+          color:deeppink;
+          font-family:Dosis;
+          font-size:30%;
+          font-weight: 200px;
+          text-align:justify;"
+
+    }
+
+   .p4
+    {
+         color:whitesmoke;
+          font-family:Lobster;
+          font-size:20px;
+       text-align: right;
+          line-height:0px;"
+
+
+    }
+
+      .p5
+    {
+         color:darkseagreen;
+          font-family:Dosis;
+        font-size: 30px;
+                      font-weight: 400;
+                      text-align: end;"
+
+    }
+

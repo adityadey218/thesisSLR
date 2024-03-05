@@ -1,0 +1,15 @@
+id,altmetric_jid,type,altmetric_id,journal,is_oa,schema,score,cited_by_posts_count,cited_by_msm_count,cited_by_policies_count,cited_by_tweeters_count,cited_by_fbwalls_count,cited_by_rh_count,cited_by_patents_count,cited_by_accounts_count,last_updated,added_on,published_on,readers_count,citeulike_reader,mendeley,connotea,Literature_id_id
+1,,article,64648166,Games for Health Journal,0,1.5.4,2.35,3,,,3,,,,3,1576098374,1565128529,1564617600,124,0,124,0,11
+2,,article,149665455,Frontiers in Bioengineering and Biotechnology,0,1.5.4,0.25,1,,,1,,,,1,1686086492,1686086505,1686009600,7,0,7,0,14
+3,,article,1675086,JMIR Serious Games,0,1.5.4,3.0,5,,,4,1,,,5,1611431132,1375889641,1375747200,319,0,319,0,15
+4,,article,92111773,"BMC Sports Science, Medicine and Rehabilitation",0,1.5.4,3.0,4,,,4,,,,4,1603439787,1602319533,1602201600,158,0,158,0,25
+5,,article,124536646,Sensors,0,1.5.4,0.25,1,,,1,,,,1,1660651200,1647119129,1640217600,65,0,65,0,27
+6,,article,153175227,Geriatric Nursing (04355733),0,1.5.4,10.95,14,,,14,,,,14,1698672600,1692579034,1692403200,29,0,29,0,29
+7,,article,36953332,Behaviour & Information Technology,0,1.5.4,7.1,10,,,8,,,,8,1524217574,1523610732,1523491200,152,0,152,0,33
+8,,article,6863157,Games for Health Journal,0,1.5.4,1.6,3,,,2,1,,,3,1467290724,1461256320,1461110400,86,0,86,0,36
+9,,article,83689286,BMC Geriatrics,0,1.5.4,7.6,9,,1,8,,,,9,1670007169,1591702166,1591228800,167,0,167,0,39
+10,,article,137727323,IEEE Transactions on Emerging Topics in Computing,0,1.5.4,7.0,1,1,,,,,,1,1666829231,1666832575,1605225600,26,0,26,0,43
+11,,article,136652910,Frontiers in Virtual Reality,0,1.5.4,3.0,5,,,5,,,,5,1664584496,1664557425,1664496000,33,0,33,0,46
+12,,book,129228890,The National Academies Press,0,1.5.4,52.01,46,3,1,30,1,,,37,1700057123,1654270856,1654214400,53,0,53,0,48
+13,,article,116220406,Gerontology,0,1.5.4,1.75,4,,,3,,,,3,1660179147,1636018223,1599609600,226,0,226,0,56
+14,,article,121214145,JMIR Serious Games,0,1.5.4,35.85,20,3,,16,1,,,20,1670847774,1642604490,1642550400,122,0,122,0,58

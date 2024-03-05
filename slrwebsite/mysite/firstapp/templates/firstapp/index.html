@@ -1,0 +1,11 @@
+
+{% extends "./base_page.html" %}
+
+{% block content %}
+<form class="" action="(url,'index')" method="post">
+    {% csrf_token%}
+    {{myKwForm}}
+    <input type="submit" value="Add" >
+</form>
+{% endblock %}
+
