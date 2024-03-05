@@ -1,0 +1,19 @@
+id,altmetric_jid,type,altmetric_id,journal,is_oa,schema,score,cited_by_posts_count,cited_by_msm_count,cited_by_policies_count,cited_by_tweeters_count,cited_by_fbwalls_count,cited_by_rh_count,cited_by_patents_count,cited_by_accounts_count,last_updated,added_on,published_on,readers_count,citeulike_reader,mendeley,connotea,Literature_id_id
+1,,article,103837766,Pulmonology,0,1.5.4,17.2,15,1,,13,,,,14,1683914262,1618344878,1617926400,389,0,389,0,4
+2,,article,100204853,Reviews in the Neurosciences,0,1.5.4,10.85,18,,,18,,,,18,1614141545,1613410490,1607299200,164,0,164,0,9
+3,,article,153415684,,0,1.5.4,9.064,2,,1,,,,,2,1699833600,1693304365,1663113600,10,0,10,0,11
+4,,article,118992235,Information & Software Technology,0,1.5.4,2.85,6,,,5,,,,5,1640086940,1639575212,1648771200,34,0,34,0,18
+5,,article,157685148,Journal of Systems & Software,0,1.5.4,3.45,5,,,5,,,,5,1703427038,1703156912,1709251200,19,0,19,0,19
+6,,article,153499785,Universe,0,1.5.4,205.3,48,25,,15,,,,42,1706549540,1693541439,1693353600,18,0,18,0,20
+7,,article,59732818,Empirical Software Engineering,0,1.5.4,12.55,34,,,19,,,,19,1694668295,1556639289,1587168000,143,0,143,0,23
+8,,article,153713234,International Forum of Allergy & Rhinology,0,1.5.4,2.75,4,,,4,,,,4,1704574620,1693811134,1704153600,30,0,30,0,24
+9,,book,116132888,,0,1.5.4,1.5,6,,,2,,,,2,1638291720,1635860879,1640995200,18,0,18,0,27
+10,,article,140415436,Information & Software Technology,0,1.5.4,3.35,7,,,5,,,,5,1675079745,1671665311,1680307200,5,0,5,0,30
+11,,article,154081464,Journal of Systems & Software,0,1.5.4,6.75,9,,,9,,,,9,1694601423,1694538686,1701388800,4,0,4,0,33
+12,,article,121922739,American Journal of Emergency Medicine,0,1.5.4,27.43,16,2,,12,,,,15,1705584198,1643731183,1642723200,269,0,269,0,35
+13,,article,108286081,Molecular Neurobiology,0,1.5.4,6.6,12,,,11,,,,11,1649777313,1624858225,1624665600,99,0,99,0,44
+14,,article,144211143,Journal of Pediatric Healthcare,0,1.5.4,1.75,4,,,3,,,,3,1686579419,1679548095,1679011200,11,0,11,0,57
+15,,article,108851009,Critical Care,0,1.5.4,79.95,133,1,,126,2,,,129,1657227642,1625630912,1625529600,116,0,116,0,61
+16,,article,142120727,Scientific Programming,0,1.5.4,1.5,2,,,2,,,,2,1675500883,1675432848,1675296000,14,0,14,0,64
+17,,book,28419715,,0,1.5.4,0.25,1,,,,1,,,1,1509587438,1509795430,1514764800,25,0,25,0,70
+18,,article,142273161,Laryngo-Rhino-Otologie,0,1.5.4,2.25,4,,,3,,,,3,1677045530,1675837959,1675728000,3,0,3,0,73

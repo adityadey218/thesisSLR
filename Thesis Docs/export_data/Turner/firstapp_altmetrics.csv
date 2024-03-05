@@ -1,0 +1,23 @@
+id,altmetric_jid,type,altmetric_id,journal,is_oa,schema,score,cited_by_posts_count,cited_by_msm_count,cited_by_policies_count,cited_by_tweeters_count,cited_by_fbwalls_count,cited_by_rh_count,cited_by_patents_count,cited_by_accounts_count,last_updated,added_on,published_on,readers_count,citeulike_reader,mendeley,connotea,Literature_id_id
+1,,article,145166823,Fertility & Sterility,0,1.5.4,3.0,1,,1,,,,,1,1672531200,1680854843,1143849600,93,0,93,0,19
+2,,article,78712955,Decision Support Systems,0,1.5.4,3.0,1,,1,,,,,1,1546300800,1585778873,1164931200,1049,0,1049,0,48
+3,,article,96181732,Information & management (Amsterdam),0,1.5.4,6.0,2,,1,,,,,2,1576962766,1608301961,1157068800,3290,6,3284,0,71
+4,,article,46104789,Journal of Business Research,0,1.5.4,3.0,1,,1,,,,,1,1513209600,1533549061,1157068800,1209,1,1208,0,77
+5,,article,144009000,Information & management (Amsterdam),0,1.5.4,3.0,1,,1,,,,,1,1354320000,1679066628,1101859200,1156,1,1155,0,101
+6,,article,15452527,Information & management (Amsterdam),0,1.5.4,4.0,2,,,,,,,2,1576962766,1484314489,1120176000,2340,4,2336,0,117
+7,,article,115405342,MIS Quarterly,0,1.5.4,10.0,2,1,,,,,,2,1678754346,1634586793,1072915200,2049,0,2049,0,126
+8,,article,94684824,Information Systems Research,0,1.5.4,6.0,2,,1,,,,,2,1666915200,1605930726,1109635200,2379,3,2376,0,179
+9,,article,1479475,Journal of the Academy of Marketing Science,0,1.5.4,1.0,1,,,1,,,,1,1368658079,1368658509,1104537600,895,1,894,0,196
+10,,article,16278150,Journal of Consumer Studies & Home Economics,0,1.5.4,6.0,2,,2,,,,,2,1455235200,1486679203,1086048000,76,0,76,0,220
+11,,article,11763067,Information & management (Amsterdam),0,1.5.4,11.0,4,1,,,,,3,4,1562025600,1473080947,1030838400,943,2,941,0,222
+12,,article,86481793,Government Information Quarterly,0,1.5.4,15.08,3,1,1,,,,,3,1687303888,1595705813,1041379200,477,0,477,0,236
+13,,article,3756948,Internet Research,0,1.5.4,3.0,1,,1,,,,,1,1424879357,1425551197,1059696000,887,0,887,0,248
+14,,article,1496033,Information & management (Amsterdam),0,1.5.4,4.0,2,,1,1,,,,2,1567641600,1369145586,1057017600,746,0,746,0,253
+15,,article,57820788,Journal of Biomedical Informatics,0,1.5.4,3.0,1,,1,,,,,1,1335830400,1553664033,1054425600,326,0,326,0,261
+16,,article,2584302,Information & management (Amsterdam),0,1.5.4,11.564,5,,,1,1,,,5,1700687573,1407647962,1041379200,5078,9,5069,0,298
+17,,article,100957382,MIS Quarterly,0,1.5.4,3.0,2,,,,,,,2,1576962766,1614415913,707356800,2038,3,2035,0,302
+18,,article,16702352,Journal of School Health,0,1.5.4,3.0,1,,1,,,,,1,978307200,1487913896,1255046400,25,0,25,0,305
+19,,article,2104068,MIS Quarterly,0,1.5.4,4.0,2,,1,1,,,,2,1604534400,1391724009,951868800,2321,1,2320,0,313
+20,,article,86481796,MIS Quarterly,0,1.5.4,3.0,1,,1,,,,,1,1554076800,1595705816,817776000,1831,0,1831,0,322
+21,,article,3671913,MIS Quarterly,0,1.5.4,3.0,1,,1,,,,,1,1654041600,1424017695,975628800,2401,6,2395,0,333
+22,,article,15013515,Management Science,0,1.5.4,23.0,8,1,4,,,,,8,1604534400,1482572857,949363200,14665,4,14661,0,367
